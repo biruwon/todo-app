@@ -17,12 +17,6 @@
                     $scope.todoItem = '';
                 }
             };
-            $scope.checkSpelling = function($event) {
-                if ($event.keyCode == 50) {
-                    $scope.todoItem = $scope.todoItem + 'berni'
-                }
-            }
-
         }]
     );
 })();

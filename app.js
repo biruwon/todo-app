@@ -6,7 +6,8 @@
     'use strict';
 
     angular.module('todo', [
-        'ui.router'
+        'ui.router',
+        'ngResource'
     ])
     .config(['$stateProvider', function($stateProvider){
         $stateProvider.state('dashboard', {
